@@ -4,26 +4,26 @@
   - Model
   - Modeling
   - Subject domain
-  - Algorithm
-  - Syntax
-  - Semantics
+  - Algorithm ~
+  - Syntax +
+  - Semantics ~
   - Abstraction
-  - Paradigm
-  - Programm
-  - Programming paradigm
+  - Paradigm ~
+  - Programm +
+  - Programming paradigm ~
   - Programming language
   - Contract
-  - Module
+  - Module ~
   - Library
   - Package
   - Component
-  - Framework
+  - Framework ~
   - Platform
   - Source code
   - Object code
   - Machine code
   - Microcode
-  - Software engineering
+  - Software engineering +
   - Decomposition
   - Control flow
   - Data flow
@@ -32,11 +32,11 @@
   - Don't repeat yourself (DRY)
   - KISS principle
 - Syntax and concepts
-  - Value
+  - Value ~
   - Identifier
-  - Variable
-  - Constant
-  - Scalar
+  - Variable 
+  - Constant 
+  - Scalar ~
   - Literal
   - Expression
   - Heap
@@ -49,9 +49,9 @@
   - Type
   - Flag
   - Lexical scope
-  - Code block
+  - Code block ~
   - Conditions
-  - Loops
+  - Loops ~
   - Assignment
   - Regular expression
   - Interface
@@ -135,15 +135,15 @@
   - DNS
   - CDN
   - CORS
-  - IPv4
-  - IPv6
+  - IPv4 ~
+  - IPv6 ~
   - NAT
-  - URL
+  - URL +
   - URN
   - URI
 - Process and tools
-  - Compiler
-  - Just-in-time compilation
+  - Compiler ~
+  - Just-in-time compilation ~
   - Ahead-of-time compilation
   - Transpiler
   - Linter
@@ -164,9 +164,9 @@
   - Code review
   - Exception
   - Unittesting
-  - git
-  - Github
-  - Docker
+  - git ~
+  - Github ~
+  - Docker ~
   - Kubernetes
   - GCC
   - LLVM
@@ -214,11 +214,11 @@
   - Ring
   - Virtual memory
   - File system
-  - Linux
-  - Unix
+  - Linux~
+  - Unix~
   - BSD
-  - MacOS
-  - Windows
+  - MacOS *
+  - Windows *
   - Real-time OS
   - Embedded OS
 - Standards

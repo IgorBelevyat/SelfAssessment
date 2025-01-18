@@ -2,13 +2,13 @@
 
 - Language
   - `Object`
-  - `Function`
-  - `Boolean`
-  - `Number`
+  - `Function`~
+  - `Boolean`~
+  - `Number`~
   - `BigInt`
-  - `String`
+  - `String`~
   - `Symbol`
-  - `Infinity`
+  - `Infinity`~
   - `NaN`
   - `undefined`
   - `null`
@@ -32,9 +32,9 @@
   - Getters and setters
   - `__proto__`
   - `prototype`
-  - Equality operators
-  - Logical operators
-  - Logical Assignment
+  - Equality operators ~
+  - Logical operators ~
+  - Logical Assignment 
   - Bitwise operators
   - Ternary operator
   - `void`
@@ -59,10 +59,10 @@
   - Private class fields
   - Private class methods
 - Statements
-  - `if`
-  - `while`
+  - `if` ~
+  - `while` ~
   - `do..while`
-  - `for`
+  - `for` ~
   - `for..in`
   - `for..of`
   - `for await`
@@ -102,11 +102,11 @@
   - `Proxy`
   - `RegExp`
   - `Date`
-  - `Math`
+  - `Math` ~
   - `Reflect`
   - `Error`
   - `Atomics`
-  - `JSON`
+  - `JSON` ~
   - `WeakRef`
   - `FinalizationRegistry`
   - `Intl`
@@ -118,5 +118,5 @@
   - Node.js
   - npm
   - prettier
-  - MDN
+  - MDN +
   - TC39
