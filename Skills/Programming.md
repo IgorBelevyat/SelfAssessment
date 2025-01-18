@@ -4,64 +4,64 @@
   - Model
   - Modeling
   - Subject domain
-  - Algorithm ~
-  - Syntax +
-  - Semantics ~
+  - Algorithm !
+  - Syntax !
+  - Semantics !
   - Abstraction
-  - Paradigm ~
-  - Programm +
-  - Programming paradigm ~
-  - Programming language
+  - Paradigm +
+  - Programm !
+  - Programming paradigm +
+  - Programming language !
   - Contract
-  - Module ~
-  - Library
+  - Module +
+  - Library +
   - Package
   - Component
   - Framework ~
-  - Platform
-  - Source code
+  - Platform +
+  - Source code +
   - Object code
-  - Machine code
+  - Machine code +
   - Microcode
-  - Software engineering +
+  - Software engineering !
   - Decomposition
   - Control flow
   - Data flow
   - Code reuse
   - Defensive programming
-  - Don't repeat yourself (DRY)
+  - Don't repeat yourself (DRY) +
   - KISS principle
 - Syntax and concepts
-  - Value ~
-  - Identifier
-  - Variable 
-  - Constant 
-  - Scalar ~
-  - Literal
-  - Expression
+  - Value !
+  - Identifier !
+  - Variable !
+  - Constant !
+  - Scalar !
+  - Literal ~
+  - Expression +
   - Heap
-  - Function
+  - Function !
   - Procedure
-  - Method
-  - Class
-  - Prototype
-  - Event
-  - Type
+  - Method 
+  - Class +
+  - Prototype ~
+  - Event +
+  - Type +
   - Flag
   - Lexical scope
-  - Code block ~
-  - Conditions
-  - Loops ~
-  - Assignment
+  - Code block !
+  - Conditions !
+  - Loops !
+  - Assignment +
   - Regular expression
-  - Interface
-  - Namespaces
-  - Call stack
-  - Naming conventions
-  - Coding conventions
-  - Camel case
-  - Snake case
-  - Kebab case
+  - Interface !
+  - Namespaces !
+  - Call stack +
+  - Naming conventions !
+  - Coding conventions +
+  - Camel case !
+  - Snake case !
+  - Kebab case ~
   - Trailing commas
   - Return early
   - Fail-fast
@@ -69,11 +69,11 @@
   - Primitive types
   - Reference types
   - Type systems
-  - Strong typing
+  - Strong typing ~
   - Weak typing
   - Duck typing
   - Static typing
-  - Dynamic typing
+  - Dynamic typing ~
   - Nominal typing
   - Structural typing
   - Explicit typing
@@ -81,55 +81,55 @@
   - Covariance
   - Contravariance
 - Functions
-  - Signature
-  - Argument
-  - Parameter
+  - Signature +
+  - Argument +
+  - Parameter +
   - Pure function
-  - Lambda expression
+  - Lambda expression ~
   - Side effects
-  - Closure
+  - Closure !
   - Partial application
   - Currying
   - Higher order
-  - Recursion
+  - Recursion +
   - Tail call optimisation
-  - Callback
-  - Listener
+  - Callback +
+  - Listener +
   - Composition
   - Pipe
   - Memoize
-  - Wrapper
-  - Functor
-  - Monad
+  - Wrapper ~
+  - Functor ~
+  - Monad ~
   - Monoid
   - Generator
   - Coroutine
 - Data structures
-  - Array
-  - Structure
+  - Array !
+  - Structure !
   - Record
   - Enum
-  - Instance
-  - Object
-  - Collection
+  - Instance ~
+  - Object !
+  - Collection !
   - Set
-  - Hash table
-  - Linked list
+  - Hash table !
+  - Linked list *
   - Doubly list
   - Unrolled list
   - Circular list
   - Queue
-  - Stack
+  - Stack +
   - Deque
-  - Tree
-  - Graph
-  - Iterator
+  - Tree +
+  - Graph +
+  - Iterator *
   - Mutable state
   - Immutable state
   - Serialization
   - String parsing
-  - JSON
-  - JSON5
+  - JSON +
+  - JSON5 +
   - YAML
 - Networking
   - DNS
@@ -142,33 +142,33 @@
   - URN
   - URI
 - Process and tools
-  - Compiler ~
-  - Just-in-time compilation ~
+  - Compiler *
+  - Just-in-time compilation +
   - Ahead-of-time compilation
   - Transpiler
-  - Linter
+  - Linter ~
   - Polyfill
   - Interpreter
   - Linker
   - Dynamic linking
   - Static linking
   - Runtime
-  - Virtual machine
+  - Virtual machine +
   - Register-based VM
   - Stack-based VM
   - Containerization
-  - Debugger
+  - Debugger *
   - Tracing
-  - Garbage collection
-  - Refactoring
-  - Code review
-  - Exception
+  - Garbage collection ~
+  - Refactoring !
+  - Code review !
+  - Exception +
   - Unittesting
-  - git ~
-  - Github ~
+  - git !
+  - Github !
   - Docker ~
   - Kubernetes
-  - GCC
+  - GCC ~
   - LLVM
 - Antipatterns
   - Magic numbers
@@ -193,7 +193,7 @@
   - Too many parameters
   - Pass-through parameters
   - Accumulate and fire
-  - Use switch/case
+  - Use switch/case !
   - Temporary field
   - Handle object as instances and hashes at the same time
   - Use fields instead of arguments
@@ -202,25 +202,25 @@
   - Monkey patch
   - Yo-yo problem
 - Runtimes and virtual machines
-  - Bytecode
-  - V8
+  - Bytecode ~
+  - V8 +
   - VJM
   - CLR
   - Mono
 - Operating systems
   - Interrupts
   - Drivers
-  - Kernel
+  - Kernel ~
   - Ring
-  - Virtual memory
-  - File system
+  - Virtual memory ~
+  - File system ~
   - Linux~
   - Unix~
   - BSD
   - MacOS *
   - Windows *
   - Real-time OS
-  - Embedded OS
+  - Embedded OS ~
 - Standards
   - ASCII
   - Escape sequence
